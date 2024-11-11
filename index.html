@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <img src="./assets/spotify.png" class="ico" id="logo" />
+
+        <form id="top-form">
+          <button id="home">
+            <img src="./assets/Home.png" class="ico" id="home" />
+          </button>
+
+          <div class="search">
+            <img src="./assets/Search.png" class="ico" id="search-ico" />
+            <input
+              type="text"
+              placeholder="quem você quer procurar?"
+              id="searchInput"
+            />
+            <img src="./assets/send.png" class="ico" id="search-button" />
+          </div>
+        </form>
+        <img src="./assets/image.png" id="profile" />
+      </nav>
+    </header>
+
+    <main>
+      <section id="left">
+       
+       <div id="top-lft">
+        <a id="library" href="">
+          <img src="./assets/library.png" alt="">  Sua Biblioteca
+        </a>
+        
+        <div id="btns">
+          <button class="lft-btn"><img class="img-btn" src="./assets/plus.png" alt=""></button>
+          <button class="lft-btn"><img class="img-btn" src="./assets/arrow.png" alt=""></button>
+        </div>
+      </div>
+        
+        <form id="lft-form">
+            <button class="src-btn">
+                <img id="img-src" src="./assets/Search.png" alt="">
+            </button>
+
+            <button class="lft-btn">
+              <img class="img-btn" src="./assets/menu.png" alt="">
+            </button>
+
+            <div>
+                <!-- colocar os recomendados  -->
+            </div>
+
+
+        </form>
+
+
+
+      </section>
+
+
+      <section id="right">
+        <div id="category"></div>
+
+        <div id="result"></div>
+
+
+      </section>
+      
+
+      <section id="play">
+
+      </section>
+    </main>
+
+
+
+    
+
+
+
+    <script src="./scrip.js"> </script>
+  </body>
+</html>
