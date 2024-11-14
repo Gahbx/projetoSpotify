@@ -80,32 +80,6 @@ searchInput.addEventListener('keydown', function(event) {
 });
 
 
-// Função para exibir resultados
-// function displayResults(artists) {
-
-//     resultsDiv.innerHTML = '';
-    
-//     nameCategory.textContent = 'Artistas';
-//     category.appendChild(nameCategory);
-  
-//     artists.forEach(artist => {
-//         const artistDiv = document.createElement('div');
-//         const artistName = document.createElement('h2');
-//         const artistImg = document.createElement('img');
-
-//         artistDiv.classList.add('artist');
-//         artistImg.classList.add('artistImg');
-        
-//         artistName.textContent = artist.name;
-//         console.log(artistName);
-
-//         artistImg.src = artist.images[0]?.url;
-     
-//         artistDiv.appendChild(artistImg);
-//         artistDiv.appendChild(artistName);
-//         resultsDiv.appendChild(artistDiv);
-//     });
-// }
 
 
 function displayAlbums(albums) {
