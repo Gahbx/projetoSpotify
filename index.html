@@ -12,10 +12,7 @@
         <img src="./assets/spotify.png" class="ico" id="logo" />
 
         <form id="top-form">
-          <button id="home">
-            <img src="./assets/Home.png" class="ico" id="home" />
-          </button>
-
+         
           <div class="search">
             <img src="./assets/Search.png" class="ico" id="search-ico" />
             <input
@@ -31,40 +28,6 @@
     </header>
 
     <main>
-      <section id="left">
-       
-       <div id="top-lft">
-        <a id="library" href="">
-          <img src="./assets/library.png" alt="">  Sua Biblioteca
-        </a>
-        
-        <div id="btns">
-          <button class="lft-btn"><img class="img-btn" src="./assets/plus.png" alt=""></button>
-          <button class="lft-btn"><img class="img-btn" src="./assets/arrow.png" alt=""></button>
-        </div>
-      </div>
-        
-        <form id="lft-form">
-            <button class="src-btn">
-                <img id="img-src" src="./assets/Search.png" alt="">
-            </button>
-
-            <button class="lft-btn">
-              <img class="img-btn" src="./assets/menu.png" alt="">
-            </button>
-
-            <div>
-                <!-- colocar os recomendados  -->
-            </div>
-
-
-        </form>
-
-
-
-      </section>
-
-
       <section id="right">
         <div id="category"></div>
 
@@ -73,17 +36,23 @@
 
       </section>
       
+      <section id="popup" style="display: none;">                                   
+        
+          <div class="popleft">
+            <img id="artista"  alt="Artista" />
+            <h2 id="artist-name">Nome do Artista</h2>
+          </div>
 
-      <section id="play">
-
+          <div class="popright"> 
+              <div class="quadro"id="msc1"></div>
+              <div class="quadro"id="msc2"></div> 
+              <div class="quadro" id="msc3"></div>
+              <div class="quadro" id="msc4"></div>
+              
+          </div>
+          
       </section>
     </main>
-
-
-
-    
-
-
 
     <script src="./scrip.js"> </script>
   </body>
